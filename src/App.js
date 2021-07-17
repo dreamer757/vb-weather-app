@@ -8,15 +8,15 @@ function App() {
     <div className="App">
       <header className="App-header">
         <Weather />
-
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://github.com/dreamer757/vb-weather-app"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Open source code
         </a>
+        by Courtney Jones
       </header>
     </div>
   );
