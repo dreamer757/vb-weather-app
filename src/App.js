@@ -12,7 +12,7 @@ function App() {
           className="App-link"
           href="https://github.com/dreamer757/vb-weather-app"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noreferrer"
         >
           Open source code
         </a>
