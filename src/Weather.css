@@ -1,0 +1,55 @@
+.Weather {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #daddda;
+  border-radius: 5px;
+  background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+.Weather .overview {
+  margin-bottom: 20px;
+}
+.Weather .weather-temperature img {
+  margin-right: 5px;
+  height: 64px;
+  width: 64px;
+}
+.Weather .weather-temperature strong {
+  color: #daddda;
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+}
+.Weather .weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.Weather .weather-temperature .active {
+  color: #daddda;
+  cursor: default;
+  text-decoration: none;
+}
+.Weather .weather-temperature .active:hover {
+  text-decoration: none;
+}
+.Weather .weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: black;
+}
+.Weather .weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.9;
+}
+.Weather .weather-forecast-temperatures-min {
+  opacity: 0.5;
+}
+.Weather .weather-forecast-temperatures {
+  font-size: 16px;
+}
+
+.Weather #fahrenheit-link:hover {
+  color: #daddda;
+}
